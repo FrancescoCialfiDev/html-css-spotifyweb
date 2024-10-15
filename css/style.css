@@ -73,10 +73,9 @@ main header {
     background-color: #9ae22d;
    
 }
-main .text {
+main .contenuto {
     height: calc(100% - 75px);
     overflow-y: scroll;
-    padding: 10px;
 }
 
 
@@ -145,22 +144,32 @@ font-size: 0.8em;
     background-color: #c1c1c1;
     width: 15%;
 }
-.user span{
+.usr span{
     font-weight: bold;
     padding-left: 5px;
     font-size: 0.8em;
     color: rgb(253, 253, 253);
 }
-
 .sezioni li{
     padding: 5px 20px;
     font-size: 10px;
 }
-.contenuto{
-    
+
+/* CARD SECTION */
+.cards span{
+    text-align: center;
+
 }
-
-
-
+.cards-container{
+    width: 100%;
+}
+.cards img{
+    width: 100%;
+    padding: 18px 30px;
+}
+.cards{
+    width: calc( 100% / 6 );
+    text-align: center;
+}
 
 
