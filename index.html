@@ -31,16 +31,16 @@
                     <!-- LISTA SIDEBAR -->
                     <div class="lista debug">
 
-                        
-                        <div class="logo debug">  <!-- LOGO -->
+
+                        <div class="logo debug"> <!-- LOGO -->
                             <img src="img/logo.svg" alt="logo">
                         </div>
 
                         <div class="home"> <!-- HOME -->
                             <ol>
-                                <li><i class="fa-solid fa-house"></i> Home</li>
-                                <li><i class="fa-solid fa-magnifying-glass"></i> Cerca</li>
-                                <li><i class="fa-solid fa-layer-group"></i> La Tua Libreria</li>
+                                <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i> Cerca</a></li>
+                                <li><a href=""><i class="fa-solid fa-lines-leaning"></i> La Tua Libreria</a></li>
                             </ol>
                         </div>
 
@@ -49,16 +49,17 @@
                                 <li>
                                     <h4 class="bd">PLAYLIST</h4>
                                 </li>
-                                <li><button><i class="fa-solid fa-plus"></i></button>Crea Playlist</li>
-                                <li>Nome playlist</li>
-                                <li>Nome playlist</li>
-                                <li>Nome playlist</li>
-                                <li>Nome playlist</li>
-                                <li>Nome playlist</li>
-                                <li>Nome playlist</li>
+                                <li><a class="button"><i class="fa-solid fa-plus"></i></a><a href="">Crea Playlist</a>
+                                </li>
+                                <li><a href="">Nome playlist</a></li>
+                                <li><a href="">Nome playlist</a></li>
+                                <li><a href="">Nome playlist</a></li>
+                                <li><a href="">Nome playlist</a></li>
+                                <li><a href="">Nome playlist</a></li>
+                                <li><a href="">Nome playlist</a></li>
                             </ol>
                         </div>
-                        
+
 
                     </div>
 
@@ -67,7 +68,7 @@
 
                         <div class="download flex align">
                             <img src="img/download.svg" alt="download">
-                            <span>Installa app</span>
+                            <span><a href="">Installa app</a></span>
                         </div>
                         <div class="profile flex align">
                             <img src="img/profile.svg" alt="profile">
@@ -213,9 +214,40 @@
 
         <!-- END OF THE PAGE -->
         <footer class="end-of-page debug">
-            FOOTER
+
+            <div class="footer-container flex">
+                <div class="nome-brano flex">   <!-- FOOTER START -->
+                    <div class="flex allinea">
+                        <img src="img/sinister.jpeg" alt="sinister">
+                        <div>
+                            <h4>Sinister</h4>
+                            <p><sub>Brano Nome</sub></p>
+                        </div>
+                    </div>
+
+                    <div class="icone">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+                </div>
+                <div class="play flex debug"> <!-- FOOTER MIDDLE -->
+
+                </div>
+                <div class="volume flex debug allinea"> <!-- FOOTER END -->
+                    <div class="volume-content">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-desktop"></i>
+                        <i class="fa-solid fa-volume-high"></i>
+                        <input type="range">
+                    </div>
+
+                </div>
+            </div>
+
         </footer>
+
     </div>
+    
 </body>
 
 </html>
