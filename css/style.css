@@ -206,6 +206,9 @@ footer{
 background-color: grey;
 border-radius: 50%;
 }
+.small{
+    display: none;
+}
 
 /* CONTENUTI PRINCIPALI */
 /* CUSTOMIZE NAV ELEMENTS*/
@@ -278,6 +281,9 @@ padding-left: 20px;
 /* HOME */
 .home{
     padding-top: 20px;
+}
+.home a{
+    padding-left: 10px;
 }
 
 /* FOOTER */
@@ -521,10 +527,53 @@ border-radius: 50%;
     .card{
         width: calc(100% / 1);
     }
+    .novisible{
+        display: none;
 
-    .none{
-       display: none;
-    
-       
     }
+    .logo .visible{
+        display: none;
+    }
+    .small{
+        display: block;
+        width: 10px;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .home a{
+        padding-left: 10px;
+        display: none;
+    }
+    .playlist{
+        display: none;
+    }
+    aside{
+        width: 60px;
+        height: 100%;
+    }
+    .contenuti{
+        width: calc(100% - 60px)
+        
+    }
+    .download span, .profile span{
+        display: none;
+    }
+
+    div.download, div.profile{
+        border-bottom: 0;
+        width: 50px;
+        
+    }
+
+    .download img{
+        border-bottom: 0;
+        
+        
+    }
+    .user img {
+        width: 20px;
+        margin: 10px 2px;
+    }
+
 }
