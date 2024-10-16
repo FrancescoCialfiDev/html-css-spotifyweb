@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,110 +11,204 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="upper-content">
+    <div class="full-content debug">
 
-            <div class="contenitore flex">
-                <aside>
-                    <div class="logo-grande">
+        <!-- MAIN CONTENT -->
+        <main class="main-content flex">
+
+            <!-- SIDE BAR -->
+            <aside class="side-bar debug">
+
+                <!-- SIDE CONTAINER -->
+                <div class="side-container debug">
+
+                    <!-- LOGO -->
+                    <div class="logo debug">
                         <img src="img/logo.svg" alt="logo">
                     </div>
-                    <div class="lista">
-                        <ol>
-                            <li><i class="fa-solid fa-house"></i> Home</li>
-                            <li><i class="fa-solid fa-magnifying-glass"></i> Cerca</li>
-                            <li><i class="fa-solid fa-layer-group"></i> La Tua Libreria</li>
-                        </ol>
-                    </div>
 
-                    <div class="lista2">
-                        <h5>PLAYLIST</h5>
-                        <button class="playlist"><i class="fa-solid fa-plus"></i></button> <span>Crea Playlist</span>
-                        <ol>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                        </ol>
-                    </div>
-                    <div class="user">
-                        <p><i class="fa-solid fa-circle-arrow-down"></i> Installa app</p>
-                        <hr>
-                        <img src="img/profile.svg" alt=""> <span>John Doe</span>
-                    </div>
+                    <!-- LISTA SIDEBAR -->
+                    <div class="lista debug">
 
-                </aside>
-                <main>
-                    <header>
-                        HEADER
-                    </header>
-                    <div class="contenuto debug">
-
-                        <div class="debug">
-                            <ol class="flex allinea sezioni">
-                                <li>IN EVIDENZA</li>
-                                <li>PODCAST</li>
-                                <li>CLASSIFICHE</li>
-                                <li>GENERI E MOOD</li>
-                                <li>NUOVE USCITE</li>
-                                <li>SCOPRI</li>
+                        <div class="home"> <!-- HOME -->
+                            <ol>
+                                <li><i class="fa-solid fa-house"></i> Home</li>
+                                <li><i class="fa-solid fa-magnifying-glass"></i> Cerca</li>
+                                <li><i class="fa-solid fa-layer-group"></i> La Tua Libreria</li>
                             </ol>
                         </div>
-                        <div class="debug ">
-                            <section class="recent-play">
-                                <h2>Recently Played</h2>
-                                <div class="debug cards-container flex">
-                                    <div class="debug cards">
-                                        <img src="img/metal_lifting.jpg" alt="Heavy Metal">
-                                        <h5>Heavy Metal</h5>
-                                        <p>Subtitle</p>
-                                    </div>
-                                    <div class="debug cards">
-                                        <img class="debug" src="img/stranger.jpeg" alt="Stranger Things">
-                                        <h5>Strabger Things, Vol. 1 (a Netflix Original Series SoundTrack)</h5>
-                                        <p>Subtitle</p>
-                                    </div>
-                                    <div class="debug cards">
-                                        <img src="img/aquietplace.jpeg" alt="A Quiet Place">
-                                        <h5>A quiet Place</h5>
-                                        <p>Subtitle</p>
-                                    </div>
-                                    <div class="debug cards">
-                                        <img src="img/split.jpeg" alt="Split">
-                                        <h5>Split</h5>
-                                        <p>Subtitle</p>
-                                    </div>
-                                    <div class="debug cards">
-                                        <img src="img/cure.jpeg" alt="Wellness">
-                                        <h5>A cure for wellness</h5>
-                                        <p>Subtitle</p>
-                                    </div>
-                                    <div class="debug cards">
-                                        <img src="img/sinister.jpeg" alt="Sinister">
-                                        <h5>Sinister</h5>
-                                        <p>Subtitle</p>
-                                    </div>
-                                </div>
-                            </section>
+                        <div class="playlist debug"> <!-- PLAYLIST -->
+                            <ol>
+                                <li>
+                                    <h4 class="bd">PLAYLIST</h4>
+                                </li>
+                                <li><button><i class="fa-solid fa-plus"></i></button>Crea Playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                                <li>Nome playlist</li>
+                            </ol>
+                        </div>
+                        <div class="user debug"> <!-- USER -->
+
+
+                            <div class="download flex align">
+                                <img src="img/download.svg" alt="download">
+                                <span>Installa app</span>
+                            </div>
+                            <div class="profile flex align">
+                                <img src="img/profile.svg" alt="profile">
+                                <span class="bd"> John Doe</span>
+                            </div>
+
+
+
                         </div>
 
+                    </div>
+
+
+                </div>
+
+            </aside>
+
+            <!-- CONTENUTI -->
+            <div class="contenuti debug">
+
+                <!-- HEADER CONTENUTI -->
+                <div class="header debug">
+                    HEADER
+                </div>
+
+                <!-- MAIN CONTENUTI -->
+                <div class="main">
+
+                    <!-- BARRA NAVIGAZIONE -->
+                    <nav class="navigation debug flex align centra">
+                        <ol class="flex">
+                            <li><a href="#">IN EVIDENZA</a></li><div></div>
+                            <li><a href="#">PODCAST</a></li>
+                            <li><a href="#">CLASSIFICHE</a></li>
+                            <li><a href="#">GENERI E MOOD</a></li>
+                            <li><a href="#">NUOVE USCITE</a></li>
+                            <li><a href="#">SCOPRI</a></li>
+                        </ol>
+                    </nav>
+
+                    <!-- BRANI -->
+                    <div class="interface debug">
+
+                        <section class="media section1 debug">
+                            <h2 class="bd">Recently played</h2>
+
+                            <div class="cards debug flex wrap">
+                                <div class="card debug">
+                                    <div class="brani col align">
+                                        <img src="img/metal_lifting.jpg" alt="Heavy Metal">
+                                        <h4>Heavy Metal</h4>
+                                        <sub>Subtitle</sub>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/stranger.jpeg" alt="Stranger Things">
+                                        <h4>Stranger Things, Col.1 a Netflix Original Series Soundtrack</h4>
+                                        <sub>Kyle Dixon e Michael Stein</sub>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/aquietplace.jpeg" alt="A quiet place">
+                                        <h4>A quiet place</h4>
+                                        <sub>Subtitle</sub>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/split.jpeg" alt="Split">
+                                        <h4>Split</h4>
+                                        <sub>Subtitle</sub>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/cure.jpeg" alt="A cure for wellness">
+                                        <h4>A cure for wellness</h4>
+                                        <sub>Subtitle</sub>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/sinister.jpeg" alt="Sinister">
+                                        <h4>Sinister</h4>
+                                        <sub>Subtitle</sub>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="media section2 debug">
+
+                            <h2 class="bd">Creato per John Doe</h2>
+                            <sub>Piu ascolti, piu accurati saranno i suggerimenti.</sub>
+                            <div class="cards debug flex wrap">
+                                <div class="card debug">
+                                    <div class="brani col align">
+                                        <img src="img/radar.jpeg" alt="Heavy Metal">
+                                        <h4>Release Radar</h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/mixdaily.jpeg" alt="Stranger Things">
+                                        <h4>Daily Mix 1</h4>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </section>
+
+                        <section class="media section3 debug">
+
+                            <h2 class="bd">Artisti piu popolari</h2>
+                            <sub>Piu ascolti, piu accurati saranno i suggerimenti.</sub>
+                            <div class="cards debug flex wrap">
+                                <div class="card debug">
+                                    <div class="brani col align">
+                                        <img src="img/youg.jpeg" alt="Heavy Metal">
+                                        <h4>Lana del Rey</h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="brani col align">
+                                        <img src="img/einaudi.jpeg" alt="Stranger Things">
+                                        <h4>Daily Mix 1</h4>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </section>
 
                     </div>
-                </main>
+
+                </div>
 
             </div>
 
-        </div>
+        </main>
 
-        <!-- Footer -->
-        <footer>
+        <!-- END OF THE PAGE -->
+        <footer class="end-of-page debug">
             FOOTER
         </footer>
     </div>
