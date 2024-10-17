@@ -473,7 +473,7 @@ input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     width: 12px;
     height: 12px;
-    background-color: var(--color-highlight);
+    background-color: var(--color-lightgrey);
     border-radius: 50%;
     cursor: pointer;
 }
