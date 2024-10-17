@@ -96,6 +96,11 @@ h4 {
 
 
 /* LAYOUT DIMENSION */
+
+.playlist{
+    overflow-y: auto;
+    max-height: calc(100% - 210px);
+}
 .end-of-page {
     position: relative;
     z-index: 999;
@@ -160,6 +165,7 @@ footer {
 
 .lista {
     height: calc(100% - 83.5px);
+    
 }
 
 .logo .visible {
