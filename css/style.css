@@ -7,7 +7,7 @@
 
 :root {
     --color-dark: #141922;
-    --color-darkgrey: background: rgb(13, 16, 23);
+    --color-darkgrey:  rgb(13, 16, 23);
     background: linear-gradient(90deg, rgba(13, 16, 23, 1) 0%, rgba(40, 40, 40, 1) 50%, rgba(13, 16, 23, 1) 100%);
     --color-light: #ffffff;
     --color-black: #000000;
@@ -289,7 +289,6 @@ background: linear-gradient(90deg, rgba(13,16,23,1) 0%, rgba(40,40,40,1) 50%, rg
 
 /* CONTENUTI PRINCIPALI */
 /* CUSTOMIZE NAV ELEMENTS*/
-.navigation a {}
 
 .navigation a {
     padding-bottom: 5px;
