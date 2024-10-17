@@ -130,6 +130,9 @@ footer{
 .lista{
     height: calc(100% - 85px);
 }
+.logo .visible{
+padding: 10px;
+}
 
 /* OVERFLOW */
 .contenuti{
@@ -157,7 +160,6 @@ footer{
 /* CONTAINER */
 .side-container{
     height: 100%;
-    padding: 15px;
 }
 
 
@@ -169,12 +171,14 @@ footer{
 
 /* CUSTOMIZE SIDE LIST*/
 .lista li{
-    padding-top: 15px;
+    margin-top: 15px;
     font-size: 0.8em;
+    padding-left: 10px;
 }
 .lista li i{
     font-size: 25px;
     vertical-align: middle;
+
 }
  .button{
     padding: 8px;
@@ -200,6 +204,8 @@ footer{
 }
 .user{
     font-size: 0.8em;
+    width: 80%;
+    margin: 0 auto;
 }
 .profile img{
 background-color: grey;
@@ -536,6 +542,7 @@ a{
     }
     .logo img{
         width: 30px;
+        margin: 10px;
     }
     .home a{
         padding-left: 10px;
@@ -545,7 +552,7 @@ a{
         display: none;
     }
     aside{
-        width: 60px;
+        width: 50px;
         height: 100%;
     }
     .contenuti{
@@ -568,10 +575,16 @@ a{
         
     }
     .user img {
-        width: 55%;
-        margin: 10px 2px;
+        width: 40%%;
+    }
+
+    .brano-ascolto{
+        flex-shrink: 1;
     }
 
 }
 
+.home li:hover{
+    border-left: 3px solid var(--color-highlight);
+}
 
