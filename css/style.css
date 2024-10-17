@@ -783,7 +783,7 @@ li:hover a,
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 9999;
+    z-index: 99999;
     animation: fadeOut 12s ease-in forwards;
 }
 .transition-video {
@@ -795,7 +795,7 @@ li:hover a,
     visibility: hidden;
 }
 @keyframes fadeOut {
-    0% {
+     0% {
         opacity: 1;
     }
 
@@ -807,8 +807,8 @@ li:hover a,
     100% {
         opacity: 0;
         visibility: hidden;
-    }
-
+    } 
+ 
 
 }
 
