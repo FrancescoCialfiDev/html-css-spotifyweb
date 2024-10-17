@@ -7,8 +7,8 @@
 
 :root {
     --color-dark: #141922;
-    --color-darkgrey: background: rgb(13,16,23);
-    background: linear-gradient(90deg, rgba(13,16,23,1) 0%, rgba(40,40,40,1) 50%, rgba(13,16,23,1) 100%);;
+    --color-darkgrey:background: rgb(13,16,23);
+    background: linear-gradient(90deg, rgba(13,16,23,1) 0%, rgba(40,40,40,1) 50%, rgba(13,16,23,1) 100%);
     --color-light: #ffffff;
     --color-black: #000000;
     --color-lightgrey: #c1c1c1;
